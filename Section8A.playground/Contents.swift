@@ -7,8 +7,6 @@ let myIntNumber = Int(myStringNumber)
 let myWrongStringNumber = "Said"
 let myWrongIntNumber:Int? = Int(myWrongStringNumber)
 
-var myOptionalString: String?
-print(myOptionalString)
 
 //Optional binding -> enlaces opcionales
 var miOptionalString:String?
@@ -48,4 +46,3 @@ myOptLibro.paginas = 100
 
 print(myOptStudent.name)
 print(myOptStudent.book?.paginas)
-
